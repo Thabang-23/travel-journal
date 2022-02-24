@@ -1,38 +1,119 @@
+* {
+  border-box: box-sizing;
+  color: #2B283A;
+}
+
+body {
+  background: #DCDCDC;
+  font-family: "Poppins", "sans-serif";
+}
+
 .App {
-  text-align: center;
+  width: 550px;
+  margin: auto;
+  background: #FFF;
+  border-radius: 5px;
+  padding-bottom: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card {
+  display: flex;
+  width: 470px;
+  height: 168px;
+  margin: auto;
+  margin-bottom: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.details {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: 19px;
 }
 
-.App-link {
-  color: #61dafb;
+.card--image {
+  float: left;
+  object-fit: cover;
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.location--details {
+  display: flex;
 }
+
+.path {
+  width: 10px;
+  height: 10px;
+}
+
+.location--text {
+  height: 10px;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  margin-left: 4px;
+  color: #2B283A;
+}
+
+.maps--url {
+  height: 13px;
+  text-decoration: underline;
+  color: #918E9B;
+  font-size: 10px;
+  line-height: 12px;
+  margin-left: 12px;
+}
+
+.title--text {
+  height: 40px;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: bold;
+  margin-top: 4px;
+}
+
+.date--text {
+  height: 11px;
+  line-height: 12px;
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.description--text {
+  font-size: 12px;
+  line-height: 150%;
+  height: 50px;
+  margin-bottom: 15px;
+  text-overflow: ellipsis;
+  overflow: scroll;
+}
+
+.nav--section {
+  display: flex;
+  background: #F55A5A;
+  height: 55px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  margin-bottom: 45px;
+}
+
+.logo {
+  //background: #DADADA;
+  height: 24px;
+  width: 24px;
+  margin: auto;
+  margin-right: 0;
+}
+
+.nav--heading {
+  font-size: 14px;
+  letter-spacing: -0.075em;
+  font-weight: 500;
+  height: 16px;
+  color: #FFF;
+  margin: auto;
+  margin-left: 0;
+}
+
